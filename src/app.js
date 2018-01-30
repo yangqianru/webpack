@@ -1,6 +1,9 @@
-function tips(param)
+import img from './image/img.png';
+
+function tips()
 {
-	alert(param);
+	var app = document.getElementById("app");
+	app.append(123);
 }
 
-tips("Hello World! +app");
+tips();
